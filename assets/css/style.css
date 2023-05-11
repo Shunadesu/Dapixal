@@ -51,7 +51,6 @@ html{
 .col-full{
     width: 100%;
 }
-
 .col-six{
     width: 66.66666%;
 }
@@ -100,7 +99,8 @@ html{
     color: black;
 }
 
-.logo a{
+.logo a
+{
     font-style: normal;
     font-size: 20px;
     line-height: 40px;
@@ -174,7 +174,7 @@ html{
 .p-stt{
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 119.7%;
     /* identical to box height, or 29px */
     color: #000000;
@@ -184,7 +184,7 @@ html{
 .h-stt{
     font-style: normal;
     font-weight: 700;
-    font-size: 76px;
+    font-size: 72px;
     line-height: 115.7%;
     /* or 88px */
     letter-spacing: -0.015em;
@@ -193,7 +193,7 @@ html{
 .h-stt:hover{
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 75px;
     line-height: 120.7%;
     /* or 88px */
     letter-spacing: -0.015em;
@@ -228,7 +228,7 @@ html{
     text-decoration: none;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 29px;
     /* identical to box height */
     color: #FFFFFF;
@@ -393,7 +393,6 @@ html{
 
 .free-meeting .content-free-meeting{
     overflow: hidden;
-
 }
 
 .stt-fm{
@@ -401,12 +400,12 @@ html{
 }
 
 .stt-fm p:hover{
-    font-size: 54px;
+    font-size: 45px;
 }
 
 .p-free-meeting{
     font-weight: 700;
-    font-size: 52px;
+    font-size: 42px;
     line-height: 128.3%;
     color: #FFFFFF;
     padding-top: 110px; 
@@ -419,7 +418,7 @@ html{
 
 .input-fm .input-booking,
 .input-fm .input-email{
-    padding: 20px 50px;
+    padding: 18px 50px;
     width: 600.05px;
     margin: 10px;
     font-family: 'Roboto Slab', serif;
@@ -429,7 +428,7 @@ html{
 }
 
 .input-fm{
-    padding: 240px 35px;
+    padding: 220px 35px;
 }
 
 .input-email{
@@ -490,11 +489,10 @@ html{
 .read-more a{
     border: 2px solid #FFFFFF;
     border-radius: 25px 25px;
-    padding: 20px 36px;
+    padding: 20px;
     background-color: #FFFFFF;
 
     text-decoration: none;
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 29px;
@@ -599,6 +597,132 @@ html{
 
 .why-dapixel{
     width: 100%;
-    height: 762px;
+    height: 662px;
     position: relative;
+}
+
+.why-dapixel-content{
+    margin-top: 145px;
+    padding-left: 220px;
+    padding-right: 80px;
+}
+
+.why-dapixel-heading{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 137.2%;
+    /* or 71px */    
+    color: #000000;    
+}
+
+.why-dapixel-text{
+
+    margin-top: 20px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 42px;
+    /* or 193% */
+    color: #000000;
+    
+    opacity: 0.7;
+}
+
+.why-dapixel-btn{
+    margin-top: 53px;
+}
+
+.why-dapixel-btn i{
+    font-size: 14.5px;
+    padding-left: 15px;
+}
+
+.why-dapixel-btn a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    /* White */
+    color: #FFFFFF;
+    background: #F9BC6E;
+    border-radius: 25px;
+    padding: 22px;
+}
+
+.why-dapixel-btn a:hover{
+    background: #FFFFFF;
+    color:#F9BC6E;
+    border: 1px solid #F9BC6E;
+}
+
+.why-dapixel-img .mar{
+    width: -webkit-fill-available;
+    margin-top: 70px;
+}
+
+
+#footer{
+    margin-top: 20px;
+    padding-top: 70px;
+    width: 100%;
+    height: 402px;
+    position: relative;
+    background-color: #F9BC6E;
+    text-decoration: none;
+
+}
+#footer li{
+    list-style: none;
+    margin-top: 5px;
+    letter-spacing: 0.2px;
+}
+
+.footer-dapixel{
+    padding-left: 260px;
+}
+
+.footer-dapixel-heading a
+{
+    color: #000000;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 9px;
+    text-decoration: none;
+}
+
+.footer-dapixel-content,
+.footer-dapixel-icon{
+    margin-top: 20px;
+}
+
+
+.footer-dapixel-icon a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.footer-company{
+    padding-left: 90px;
+}
+
+.footer-services{
+    padding-right: 20px;
+}
+
+.footer-company-content{
+    margin-top: 30px;
+}
+
+.footer-company-heading{
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+.ti-instagram,
+.ti-youtube,
+.ti-twitter{
+    padding-left: 17px;
 }

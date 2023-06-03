@@ -1,4 +1,4 @@
-# Sunny.pnhn
+# Dapixel
 
 Hi, this is my first project. 
 
